@@ -37,7 +37,7 @@ li{
 #banner {
   width: 100%;
   display: inline-block;
-  height: auto;
+  /*height: au;*/
   padding: 15px;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -65,4 +65,35 @@ li{
   height:500px;
   display: block;
 
+}
+.divider {
+  margin-top: 45px;
+  width: 100%;
+  height:100px;
+  background-color: #94C134;
+}
+h1 {
+  font-family: "Exo-DemiBold", serif;
+  color: white;
+  font-size:80px; 
+  text-align: right;
+  padding-top: 60px;
+  padding-right: 37%;
+}
+h2{
+  font-family: "Exo-DemiBold", serif;
+  color: #002951;
+  font-size: 35px;
+  padding-top: 60px;
+  padding-right: 37%;
+
+  text-align: right;
+}
+h3{
+  font-family: "Exo-DemiBold", serif;
+  color: white;
+  font-size: 30px;
+  text-align: center;
+
+  padding-top: 40px;
 }
