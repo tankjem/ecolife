@@ -125,6 +125,20 @@ h4{
   /*padding-bottom: 15px;*/
 
 }
+h6 {
+  font-family: "Exo-DemiBold", serif;
+  color:#002951;
+  padding: 15px;
+
+}
+small{
+  font-family: "Exo-Light", serif;
+  font-size: 20px;
+  /*margin: 15px 0px 0px 0px;*/
+  padding: 0px 0px 0px 15px;
+  color: #002951;
+}
+
 p{
   font-family: "Exo-DemiBold", serif;
   font-size: 24px;
@@ -133,6 +147,7 @@ p{
   letter-spacing: 0.6px;
   color:#002951;
 }
+
 .container{
   width: 800px;
   height: auto;
@@ -150,7 +165,8 @@ p{
   float: left;
   position: relative;
   left: 50%;
-  margin-left: -400px;
+  margin-top: 25px;
+  margin-left: -450px;
 }
 .contact-container{
   width: 400px;
@@ -159,14 +175,49 @@ p{
   /*text-align: center;*/
   float: right;
   position: relative;
+  margin-top: 25px;
   right: 50%;
-  margin-right: -400px;
+  margin-right: -450px;
   
 }
 form{
   font-family:"Exo-DemiBold", serif;
   padding: 10px;
   color: #002951;
+}
+.button{
+  margin: 20px 0px 0px 100px;
+}
+button{
+  width:200px;
+  height: 50px;
+  background-color: #002951;
+  font-family:"Exo-DemiBold", serif;
+  color: white;
+  font-size: 16px;
+}
+#email{
+  padding-left: 2px;
+  font-family:"Exo-Light", serif;
+  font-size: 16px;
+  height: 34px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+}
+textarea{
+  font-family:"Exo-Light", serif;
+  font-size: 16px;
+  height: 250px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: 1px solid #DDD;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
 }
 
 .picture {
