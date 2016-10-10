@@ -27,7 +27,6 @@ html, body{
   background-color: #002951;
   color: white;
   font-family: "Exo-DemiBold", serif;
-  /*font-weight: 400;*/
   text-align: center;
   font-size: 18px;
   position: fixed;
@@ -35,26 +34,23 @@ html, body{
   z-index: 10;
 }
 
-@media screen and (max-device-width: 480px) {
-  .nav{
-    font-size: 12px;
-  }
-}
-
-
 
 ul{
   list-style: none;
   padding: 15px;
 }
+
+
 li{
   display: inline;
-  padding: 50px;
+  padding: 55px;
 }
+
 a{
   text-decoration: none;
   color: white;
 }
+
 #banner {
   width: 100%;
   display: inline-block;
@@ -67,15 +63,19 @@ a{
 #ael-logo {
   width:247px;
   height:156px;
-  padding: 15px;
-  margin-left: 100px;
+  /*padding-top: 5px;*/
+  margin-left: 180px;
   /*margin-top: -15px;*/
+}
+
+@media screen and (max-device-width: 780px) {
+  
 }
 #ecolife-logo{
   width: 300px;
   height:190px;
-  padding: 15px;
-  padding-top: 15px;
+  /*padding: 5px;*/
+  padding-top: 20px;
   margin-left: 50px;
   /*margin-top: 30px;*/
 }
@@ -183,10 +183,11 @@ p{
   left: 50%;
   margin-left: -410px;
 }
+
 .form-container{
   width: 400px;
   height: auto;
-  display: inline-block;
+  display: inline;
   /*text-align: center;*/
   float: left;
   position: relative;
@@ -197,13 +198,13 @@ p{
 .contact-container{
   width: 400px;
   height: auto;
-  display: inline-block;
+  display: inline;
   /*text-align: center;*/
   float: right;
   position: relative;
   margin-top: 25px;
   right: 50%;
-  margin-right: -450px;
+  margin-right: -440px;
   
 }
 form{
@@ -213,8 +214,6 @@ form{
 }
 .button{
   margin: 20px 0px 0px 100px;
-}
-button{
   width:200px;
   height: 50px;
   background-color: #002951;
@@ -222,7 +221,7 @@ button{
   color: white;
   font-size: 16px;
 }
-#email{
+.email{
   padding-left: 2px;
   font-family:"Exo-Light", serif;
   font-size: 16px;
@@ -233,6 +232,7 @@ button{
   border-top: none;
   border-bottom: 1px solid #DDD;
   box-shadow: inset 0 1px 2px rgba(0,0,0,.39), 0 -1px 1px #FFF, 0 1px 0 #FFF;
+  
 }
 textarea{
   font-family:"Exo-Light", serif;
@@ -256,7 +256,163 @@ textarea{
 .ind-picture {
   width:650px;
   height: 500px;
-  /*margin-left:50%;*/
   display: inline-block;
   padding: 5px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+  .nav{
+    font-size: 16px;
+  }
+  li{
+    display:inline-block;
+    padding: 20px;
+  }
+  #ael-logo{
+    /*padding:0px;*/
+    margin-left:50px;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  .ind-picture {
+    width:380px;
+    height: 250px;
+    /*margin-left:50%;*/
+    display: inline-block;
+    padding: 5px;
+  }
+  .container{
+    width:50%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+  .nav{
+    font-size: 16px;
+  }
+  li{
+    display:inline-block;
+    padding: 20px;
+  }
+  #ael-logo{
+    /*padding:0px;*/
+    margin-left:50px;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  .ind-picture {
+    width:380px;
+    height: 250px;
+    /*margin-left:50%;*/
+    display: inline-block;
+    padding: 5px;
+  }
+  .container{
+    width:50%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (max-width : 1250px) {
+/* Styles */
+  .nav{
+    font-size: 16px;
+  }
+  li{
+    display:inline-block;
+    padding: 20px;
+  }
+  #ael-logo{
+    /*padding:0px;*/
+    margin-left:50px;
+  }
+  p{
+    font-size: 18px;
+  }
+
+  .ind-picture {
+    width:380px;
+    height: 250px;
+    /*margin-left:50%;*/
+    display: inline-block;
+    padding: 5px;
+  }
+  .container{
+    width:50%;
+    height: auto;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-left: -250px;
+  }
+
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
 }
