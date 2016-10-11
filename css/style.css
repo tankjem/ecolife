@@ -387,14 +387,14 @@ and (max-device-width : 1024px) {
   }
   .nav-link{
   background: yellow;
-  margin-left: 50px;
-  padding: 15px 95px 15px 95px;
+  margin-right: -120px;
+  padding: 18px 85px 18px 85px;
   width: 100%;
   color: #002951;
   }
   li{
-    display: inline;
-    padding: 45px;
+    display: inline-block;
+    padding: 65px;
   }
   
   #banner {
@@ -451,7 +451,7 @@ and (orientation : portrait) {
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (min-width : 864px)
+and (min-width : 884px)
 and (max-width: 1226px) {
 /* Styles */
 body{
@@ -462,7 +462,7 @@ body{
 }
 .nav-link{
 background: yellow;
-padding: 12px 55px 12px 55px;
+padding: 12px 75px 12px 75px;
 width: 100%;
 color: #002951;
 }
