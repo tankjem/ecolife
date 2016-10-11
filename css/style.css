@@ -36,7 +36,7 @@ html, body{
 .nav-link{
   background-color: yellow;
   padding: 13px 55px 13px 55px;
-  width: 100%;
+  /*width: 100%;*/
   color: #002951;
 }
 
@@ -47,7 +47,6 @@ ul{
 
 
 li{
-  /*margin: 0 ;*/
   display: inline;
   padding: 55px;
 }
@@ -313,16 +312,36 @@ textarea{
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
   .nav{
-    font-size: 16px;
+    font-size: 20px;
+  }
+  .nav-link{
+  background: yellow;
+  margin-right: -150px;
+
+
+  padding: 18px 90px 18px 90px;
+  color: #002951;
   }
   li{
-    display:inline-block;
-    padding: 20px;
+    display: inline;
+    padding: 55px;
+    text-align: left;
   }
-  #ael-logo{
-    /*padding:0px;*/
-    margin-left:50px;
+  
+  #banner {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    /*margin-top: 120px;*/
+    margin-bottom: 25px;
   }
+  #ecolife-logo{
+    width: 300px;
+    height:190px;
+    /*padding-top: 10px;*/
+    margin-left: 220px;
+  }
+  
   p{
     font-size: 18px;
   }
@@ -330,7 +349,6 @@ and (max-device-width : 480px) {
   .ind-picture {
     width:380px;
     height: 250px;
-    /*margin-left:50%;*/
     display: inline-block;
     padding: 5px;
   }
@@ -365,16 +383,34 @@ and (max-width : 320px) {
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
   .nav{
-    font-size: 16px;
+    font-size: 12px;
+  }
+  .nav-link{
+  background: yellow;
+  margin-left: 50px;
+  padding: 15px 95px 15px 95px;
+  width: 100%;
+  color: #002951;
   }
   li{
-    display:inline-block;
-    padding: 20px;
+    display: inline;
+    padding: 45px;
   }
-  #ael-logo{
-    /*padding:0px;*/
-    margin-left:50px;
+  
+  #banner {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    /*margin-top: 120px;*/
+    margin-bottom: 25px;
   }
+  #ecolife-logo{
+    width: 300px;
+    height:190px;
+    /*padding-top: 10px;*/
+    margin-left: 220px;
+  }
+  
   p{
     font-size: 18px;
   }
@@ -382,7 +418,6 @@ and (max-device-width : 1024px) {
   .ind-picture {
     width:380px;
     height: 250px;
-    /*margin-left:50%;*/
     display: inline-block;
     padding: 5px;
   }
@@ -396,7 +431,6 @@ and (max-device-width : 1024px) {
     margin-left: -250px;
   }
 
-/* Styles */
 }
 
 /* iPads (landscape) ----------- */
@@ -417,40 +451,57 @@ and (orientation : portrait) {
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (max-width : 1150px) {
+and (min-width : 864px)
+and (max-width: 1226px) {
 /* Styles */
-  .nav{
-    font-size: 16px;
-  }
-  li{
-    display:inline-block;
-    padding: 20px;
-  }
-  #ael-logo{
-    /*padding:0px;*/
-    margin-left:50px;
-  }
-  p{
-    font-size: 18px;
-  }
+body{
+  overflow-x: hidden;
+}
+.nav{
+  font-size: 16px;
+}
+.nav-link{
+background: yellow;
+padding: 12px 55px 12px 55px;
+width: 100%;
+color: #002951;
+}
+li{
+  display: inline;
+  padding: 5px;
+}
 
-  .ind-picture {
-    width:380px;
-    height: 250px;
-    /*margin-left:50%;*/
-    display: inline-block;
-    padding: 5px;
-  }
-  .container{
-    width:50%;
-    height: auto;
-    display: inline-block;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    margin-left: -250px;
-  }
+#banner {
+  width: 100%;
+  display: inline-block;
+  padding: 15px;
+  margin-bottom: 25px;
+}
+#ecolife-logo{
+  width: 300px;
+  height:190px;
+  margin-left: 180px;
+}
 
+p{
+  font-size: 18px;
+}
+
+.ind-picture {
+  width:380px;
+  height: 250px;
+  display: inline-block;
+  padding: 5px;
+}
+.container{
+  width:50%;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -200px;
+}
 }
 
 /* Large screens ----------- */
