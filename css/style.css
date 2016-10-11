@@ -33,7 +33,12 @@ html, body{
   width: 100%;
   z-index: 10;
 }
-
+.nav-link{
+  background-color: yellow;
+  padding: 13px 55px 13px 55px;
+  width: 100%;
+  color: #002951;
+}
 
 ul{
   list-style: none;
@@ -42,6 +47,7 @@ ul{
 
 
 li{
+  /*margin: 0 ;*/
   display: inline;
   padding: 55px;
 }
@@ -49,6 +55,10 @@ li{
 a{
   text-decoration: none;
   color: white;
+}
+.nav-link-text{
+  text-decoration: none;
+  color: blue;
 }
 
 #banner {
@@ -63,29 +73,29 @@ a{
 #ael-logo {
   width:247px;
   height:156px;
+  margin-left: 60px;
+  padding-bottom: 10px;
+
   /*padding-top: 5px;*/
-  margin-left: 180px;
   /*margin-top: -15px;*/
 }
 
-@media screen and (max-device-width: 780px) {
-  
-}
+
 #ecolife-logo{
   width: 300px;
   height:190px;
   /*padding: 5px;*/
   padding-top: 20px;
-  margin-left: 50px;
+  margin-left: 340px;
   /*margin-top: 30px;*/
 }
 #form-link{
   /*font-family: "Exo-DemiBold", serif;*/
   width: 260px;
-  height: 100px;
+  height: 80px;
   position: fixed;
   right: -20px;
-  top: 90px;
+  top: 100px;
   background-color: #F8E71C;
   text-align: center;
   z-index:9;
@@ -259,6 +269,44 @@ textarea{
   display: inline-block;
   padding: 5px;
 }
+.thanks{
+  font-family: "Exo-DemiBold", serif;
+  color: white;
+  font-size:30px; 
+  text-align: center;
+  margin-top: 5px;
+  padding: 50px;
+  
+}
+#thanks{
+  width: 100%;
+  height: 720px;
+  background-color: #2e4254;
+  position: relative;
+  /*border: 1px solid black;*/
+  text-align: center;
+  overflow-y: hidden;
+}
+#a-e-l-link-box{
+  height: 140px;
+  width:450px;
+  position: relative;
+  border: 1px solid black;
+  position: relative;
+  left: 50%;
+  margin-top: 25px;
+  margin-left: -225px;
+  background-color: #94C134;
+}
+.sister{
+  font-family: "Exo-DemiBold", serif;
+  color: white;
+  font-size:40px; 
+  text-align: center;
+  letter-spacing: 0.1em;
+  padding-top: 45px;
+}
+/*RESPONSIVE CSS ----------------*/
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
@@ -297,6 +345,7 @@ and (max-device-width : 480px) {
   }
 
 }
+
 
 /* Smartphones (landscape) ----------- */
 @media only screen 
@@ -368,7 +417,7 @@ and (orientation : portrait) {
 
 /* Desktops and laptops ----------- */
 @media only screen 
-and (max-width : 1250px) {
+and (max-width : 1150px) {
 /* Styles */
   .nav{
     font-size: 16px;
